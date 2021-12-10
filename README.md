@@ -18,8 +18,6 @@ git clone https://github.com/bruntyt/ddosbybrunt
 
 cd Dos-brunt
 
-chmod +x *
-
 python3 run.py
 
 **_Esta ferramenta envia bots para o site a 80 bots por segundo. Por exemplo: Se o site tem capacidade para 400 usuários por segundo, você deve executar esta ferramenta em 5 janelas de terminal diferentes._**
