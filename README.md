@@ -16,7 +16,7 @@ sudo apt install git, python3
 
 git clone https://github.com/bruntyt/ddosbybrunt
 
-cd ddos by brunt
+cd Dos-brunt
 
 chmod +x *
 
